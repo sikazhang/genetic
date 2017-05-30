@@ -1,0 +1,119 @@
+.treeview-menu.rootMenu .input-group{
+    padding: 10px;
+    
+}
+
+.treeview-menu.rootMenu .sizeBox.form-control{
+    display: inline;
+    width: 40%;
+    margin: 10px;
+}
+
+.treeview-menu.rootMenu .form-control{
+    background-color: #ddd
+}
+
+.treeview-menu.rootMenu .form-control:focus{
+    background-color: #eee
+    
+}
+
+fieldset {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#canvas {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background-color: #272822;
+	margin:0px 15px 0px 0px;
+}
+#lifegame {
+	cursor: default;
+}
+#mouse_info_fieldset {
+	width: 100px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+	padding: 3px;
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border: 2px solid #000;
+}
+#mouse_info_fieldset label {
+	display: block;
+	overflow: hidden;
+}
+#mouse_info_fieldset #fps {
+	background: transparent;
+	border: none;
+	float: right;
+	display: inline;
+	width: 50px;
+	text-align: right;
+	color: yellow;
+}
+#mouse_info_fieldset label span {
+	float: right;
+}
+#tool_box {
+	float: left;
+	width: 50%;
+	border: 10px solid transparent;
+	box-sizing: border-box;
+}
+#tool_box label {
+	display: block;
+	margin-bottom: 5px;
+}
+#tool_box button {
+	width: 100px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+#world_status {
+	color: red;
+}
+#tool_box #create_world {
+	height: 81px;
+	float: right;
+	position: absolute;
+	top: 18px;
+	right: 10px;
+}
+
+.control .treeview-menu.rootMenu button{
+	width: 40%;
+	margin: 10px;
+}
+
+#editor{
+	width: 30%;
+	height: 705px;
+	
+}
+
+.CodeMirror pre{
+	text-align: left;
+}
+
+#zoom{
+	position: absolute;
+	right: 3%;
+	top: 3%;
+}
+
+#run{
+	position: absolute;
+	bottom: 2%;
+	right: 20px;
+	z-index: 100;
+	display: block;
+	float: right;
+	margin: 10px;
+}

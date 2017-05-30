@@ -1,0 +1,48 @@
+﻿.navbar-default {
+    /*background-color: #337ab7;*/
+    background-color: rgba(0,166,90,1);
+    color: #FFF;
+    border: none;
+}
+
+    .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+        color: #FFF;
+        font-size: 23px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #FFF;
+    }
+
+.navbar-left {
+    /*float:right;*/
+    margin-left: 6%;
+}
+
+.icon-space {
+    margin-right: 5px;
+}
+/*footer字体*/
+div#footer { /*主页底边栏:绝对定位，距离底部为0*/
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 3.8%;
+    /*background-color:grey;*/
+    /*background-color:#459e00;*/
+    /*background: url("/images/footer.jpg") no-repeat;*/
+    /*border-top: solid 2px white;*/
+}
+
+.about-text {
+    color: #696969;
+    font-size: 0.8em;
+}
+.container{
+    width:100%;
+}
+.container > .navbar-header {
+    margin-left: 7%;
+
+}
+
